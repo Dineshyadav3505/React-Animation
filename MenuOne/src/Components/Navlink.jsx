@@ -6,12 +6,12 @@ const Navlink = () => {
     const [hovered, setHovered] = useState(false);
 
     const data = [
-        { label: 'Home',      image: '' },
-        { label: 'Work',      image: '' },
-        { label: 'About',     image: '' },
-        { label: 'Instagram', image: '' },
-        { label: 'Facebook',  image: '' },
-        { label: 'LinkedIn',  image: '' },
+        { label: 'Home',      image: 'home.avif' },
+        { label: 'Work',      image: 'work.avif' },
+        { label: 'About',     image: 'about.avif' },
+        { label: 'Instagram', image: 'instagram.avif' },
+        { label: 'Facebook',  image: 'facebook.avif' },
+        { label: 'LinkedIn',  image: 'linkedin.avif' },
     ];
 
     return (
